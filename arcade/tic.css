@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rock Salt';
+    text-align: center;
+    background: url(ticbackground.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flexbox;
+}
+
+body::after {
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+h1 {
+    margin-top: 5%;
+    font-size: 60px;
+    color: white;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 300px;   
+    margin: 50px auto;
+    background-color: white;
+    border: 2px solid black;
+}
+
+ .cell {
+     font-family: 'Finger Paint';
+     width: 100px;
+     height: 100px;
+     border: 1px solid black;
+     cursor: pointer;
+     font-size: 60px;
+}
+
+.status {
+    font-size: 40px;
+    color: white;
+}
+
+button {
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: white;
+    padding: 5px;
+    font-family: 'Shadows Into Light';
+}

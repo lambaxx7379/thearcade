@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(wolf.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.title {
+     text-align: center;
+     margin-top: 5%;
+     color: white;
+     font-family: 'Rock Salt';
+     font-size: 60px;
+}
+
+.items { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Finger Paint';
+    align-items: flex-start;
+    flex: 1 1 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0%;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 5px -2px black;
+}
+
+.item-name, .fact-line {
+    background-color: plum;
+    color: white;
+    padding: 5px;
+}
+
+.item-name { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.fact-name {
+    font-weight: bold;
+}
+
+.fact-line {
+    padding: 6px;
+}
+
+.item-description {
+    padding: 10px;
+}
+
+.add-item {
+    padding: 5px;
+    border-radius: 60%;
+    background-color: gray;
+}
+
